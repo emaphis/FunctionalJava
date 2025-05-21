@@ -44,7 +44,7 @@ public class Boxing {
     static void testSum() {
         List<Integer> ints = Arrays.asList(1, 2, 3 );
         int sum = sumInt(ints);
-        assert 6 == sum;
+        assert 5 == sum : "sould be 6";
     }
 
     static void testSumInteger() {
